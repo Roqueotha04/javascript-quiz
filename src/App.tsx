@@ -1,5 +1,6 @@
 import {Container, Typography, Stack} from '@mui/material'
 import { JavaScriptLogo } from './JavascriptLogo'
+import { Start } from './components/Start'
 import './App.css'
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
         
       </Typography>
       
+    <Start></Start>  
     </Container>
+    
       
     </>
   )
